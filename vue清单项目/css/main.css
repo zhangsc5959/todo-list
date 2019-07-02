@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    position: relative;
+}
+
+.wrap {
+    background-color: #eee;
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+}
+
+.header, nav {
+    text-align: center;
+}
+
+nav {
+    background-color: #a6ebe6;
+    color: #f2f1f3;
+    padding: 10px 0;
+}
+nav h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.header {
+    padding: 20px 0;
+    color: #555;
+
+    
+}
+
+input, button, textarea {
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 3px;
+    padding: 5px 10px;
+
+}
+input {
+    display: block;
+    width: 100%;
+}
+
+/*#alert-sound {
+    display: none;
+}*/
+
+.task-list .item button {
+    display: none;
+}
+.task-list .item:hover button {
+    display: inline-block;;
+}
